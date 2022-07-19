@@ -46,65 +46,44 @@
     </div>
   </nav>
   
-<section class="my-5">
-	<div class="py-5">
-		<h3 class="text-center">About Us</h3>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class= "col-lg-6 col-md-6 col-12">
-				<img src="images_frost hack1/img2.jpg" class="image container-fluid aboutimg" >
-			</div>
-			<div class= "col-lg-6 col-md-6 col-12">
-				<h2 class="display-4"> You are important to us </h2>
-				<p class="py-5">
-					As estimated 26% of Americans ages 18 and older, about 1 in 
-					4 adults suffers from a diagonsable mental disorder in a 
-					given year. Many people suffers depressive illness with 
-					substance abuse and anxiety disorders.<br>
-                    source: hopkinsmedicine.org<br>
-                    <br>
-                    so its time to make change and we will to it together.
-                    We are available for you with our services for you 
-                    mental health. <br>
-                    "You are important"
-				</p>
-				<a href="aboutus.php" class="btn btn-outline-success"> Visit here </a>
-			</div>
-		</div>
-	</div>
-</section>
+<section>  
+    <div class="container my-4">
+            <h2>Contact Us</h2>
+            <form action="userinfo.php" method="post">
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Username</label>
+                    <input type="text" name="user" autocomplete="off" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputEmail1" class="form-label">Email address</label>
 
-<section class="my-5">
-	<div class="py-5">
-		<h3 class="text-center">Data N' Hack Elite</h3>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-12">
-				<div class="card" >
-  					<img class="card-img-top" src="images_frost hack1/geetanshu.png" alt="Card image" >
-  					<div class="card-body">
-    					<h4 class="card-title">Geetanshu</h4>
-    					<p class="card-text">This girl is our netaji!!</p>
-    					<a href="#" class="btn btn-outline-success">See Profile</a>
-  					</div>
-				</div>
-				</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<div class="card" >
-  					<img class="card-img-top" src="images_frost hack1/Shalu2.jpg" alt="Card image" >
-  					<div class="card-body">
-    					<h4 class="card-title">Shalu</h4>
-    					<p class="card-text">Have fun Guyz!!</p>
-    					<a href="#" class="btn btn-outline-success">See Profile</a>
-  					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-</section>	
+                    <input type="email" name="email" autocomplete="off" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleInputPassword1" class="form-label">Password</label>
+                    <input type="password" name="password" autocomplete="off" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="mb-3">
+                <label for="exampleDataList" class="form-label">Select Your Query</label>
+                <input name="query" class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Type to search...">
+                <datalist id="datalistOptions">
+                    <option value="Mental health"></option>
+                    <option value="physical health"></option>
+                    <option value="Seattle"></option>
+                    <option value="Los Angeles"></option>
+                    <option value="Chicago"></option>
+                </datalist>
+                </div>
+                <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Elaborate Your Concern</label>
+                    <textarea name="concern" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+
+</section>
 
 <footer>
   <h5 class="p-3 bg-dark text-white text-center">Contact on social media</h5>

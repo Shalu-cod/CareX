@@ -45,68 +45,79 @@
        </div>
     </div>
   </nav>
-  
-<section class="my-5">
-	<div class="py-5">
-		<h3 class="text-center">About Us</h3>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class= "col-lg-6 col-md-6 col-12">
-				<img src="images_frost hack1/img2.jpg" class="image container-fluid aboutimg" >
-			</div>
-			<div class= "col-lg-6 col-md-6 col-12">
-				<h2 class="display-4"> You are important to us </h2>
-				<p class="py-5">
-					As estimated 26% of Americans ages 18 and older, about 1 in 
-					4 adults suffers from a diagonsable mental disorder in a 
-					given year. Many people suffers depressive illness with 
-					substance abuse and anxiety disorders.<br>
-                    source: hopkinsmedicine.org<br>
-                    <br>
-                    so its time to make change and we will to it together.
-                    We are available for you with our services for you 
-                    mental health. <br>
-                    "You are important"
-				</p>
-				<a href="aboutus.php" class="btn btn-outline-success"> Visit here </a>
-			</div>
-		</div>
-	</div>
-</section>
 
-<section class="my-5">
-	<div class="py-5">
-		<h3 class="text-center">Data N' Hack Elite</h3>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-12">
-				<div class="card" >
-  					<img class="card-img-top" src="images_frost hack1/geetanshu.png" alt="Card image" >
-  					<div class="card-body">
-    					<h4 class="card-title">Geetanshu</h4>
-    					<p class="card-text">This girl is our netaji!!</p>
-    					<a href="#" class="btn btn-outline-success">See Profile</a>
-  					</div>
-				</div>
-				</div>
-			<div class="col-lg-4 col-md-4 col-12">
-				<div class="card" >
-  					<img class="card-img-top" src="images_frost hack1/Shalu2.jpg" alt="Card image" >
-  					<div class="card-body">
-    					<h4 class="card-title">Shalu</h4>
-    					<p class="card-text">Have fun Guyz!!</p>
-    					<a href="#" class="btn btn-outline-success">See Profile</a>
-  					</div>
-				</div>
-				
-			</div>
-		</div>
-	</div>
-</section>	
 
-<footer>
+<section> 
+  <div class="py-5">
+    <h5 class="text-center">Doctors who want to provide their services</h5>
+  </div>
+  <div class="w-50 m-auto">
+    <form action="doctor.php" method="post">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" name="user" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" name="email" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Mobile number</label>
+        <input type="password" name="mobile" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <input type="text" name="address" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Online services(if any)</label>
+        <input type="text" name="online" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>When you want to start</label>
+        <input type="date" name="date" autocomplete="off" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-outline-success">Submit</button>
+       </form>
+  </div>
+</section>  
+
+<section> 
+  <div class="py-5">
+    <h5 class="text-center">Work as a Volnteer</h5>
+  </div>
+  <div class="w-50 m-auto">
+    <form action="vol.php" method="post">
+      <div class="form-group">
+        <label>Name</label>
+        <input type="text" name="user" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email</label>
+        <input type="text" name="email" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Mobile number</label>
+        <input type="text" name="mobile" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>When you want to start</label>
+        <input type="date" name="date" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Address</label>
+        <input type="text" name="address" autocomplete="off" class="form-control">
+      </div>
+      <button type="submit" class="btn btn-outline-success">Submit</button>
+       </form>
+  </div>
+</section>  
+
+
+
+
+
+  <footer>
   <h5 class="p-3 bg-dark text-white text-center">Contact on social media</h5>
   <p class="p-3 bg-dark text-white text-center">
     <a href="www.facebook.com"  class="btn btn-outline-primary" >facebook</a>  .  <a href="#"  class="btn btn-outline-danger">Instagram</a>  .  <a href="#"  class="btn btn-outline-secondary">Linkedin</a>
@@ -121,3 +132,4 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
+  
